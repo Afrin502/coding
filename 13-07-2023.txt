@@ -1,0 +1,16 @@
+n= int(input("enter a number:"))
+p=n[::-1]
+if p==n:
+   print("palindrome")
+else:
+   print("not a palindrome")
+
+
+
+
+
+---------------------------------------------------
+revers
+---------
+n=input("enter a number :")
+print(n[::-])
