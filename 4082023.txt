@@ -1,0 +1,19 @@
+print zero in middle of the list
+===================================
+nums=[1,2,0,4,5,0,3,0,6]
+n=[]
+n1=[]
+for i in nums:
+    if i == 0:
+	n.append(i)
+    else:
+	n1.append(i)
+k=len(n1)/2
+p=n[:k]
+p1=n[k:]
+print(p+n+p1)
+ 
+
+output:
+====================
+[1,2,3,0,0,0,4,5,6]
