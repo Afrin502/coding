@@ -1,0 +1,11 @@
+p=" wecome to india".split()
+
+k=""
+
+for i in p[::-1]:
+    
+    k+=i+" "
+
+k=k[:-1]
+
+print(k)

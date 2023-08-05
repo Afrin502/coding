@@ -8,7 +8,7 @@ for i in nums:
 	n.append(i)
     else:
 	n1.append(i)
-k=len(n1)/2
+k=int(len(n1)/2)
 p=n[:k]
 p1=n[k:]
 print(p+n+p1)
